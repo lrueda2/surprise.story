@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color: black;
+}
+
+.myDiv {
+  color: white;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#myHiddenDiv {
+  display: none;
+  margin: 0 auto;
+}
+
+.myDiv2 p{
+  color: white;
+  margin: 10px 0px 0px 350px;
+}
+
+.myDiv3 p{
+color: white;
+margin: 50px 0px 0px 550px;
+}
+
+.myDiv3 div1{
+  margin: 0px 25px;
+}
+
+.myDiv3 div2{
+  margin: 0px 50px;
+}
+
+.myDiv3 div3{
+  margin: 0px 75px;
+}

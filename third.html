@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <script src="p5.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <script src="sketch(2).js"></script>
+  <link rel="stylesheet" href="master.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+  });
+});
+</script>
+</head>
+
+<body>
+  <div class="myDiv3">
+    <p>Demonstrate fadeIn() with different parameters.</p>
+
+    <button>Click to fade in boxes</button><br><br>
+
+    <div id="div1" style="width:350px;height:350px;display:none;background-color:blue;"></div><br>
+    <div id="div2" style="width:350px;height:350px;display:none;background-color:purple;"></div><br>
+    <div id="div3" style="width:350px;height:350px;display:none;background-color:grey;"></div><br>
+    <div id="div4" <button><a href="fourth.html">Click Next</a></button></div>
+  </div>
+
+
+
+</body>
+
+</html>
